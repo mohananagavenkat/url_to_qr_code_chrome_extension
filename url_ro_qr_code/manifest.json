@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "URL TO QR CODE 🆒",
+  "description": "This extension generates a Qr code for current page url, so that if you want to view the same webpage in mobile by simply scanning it, instead of typing the whole url by hand or ctrl+c and then ctrl+v 😖 into another application.",
+  "version": "1.0",
+  "author": "Mohana Naga Venkat. Sayempu",
+  "icons": {
+    "16": "icons/favicon-16x16.png",
+    "32": "icons/favicon-32x32.png",
+    "512": "icons/favicon-512x512.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icons/favicon-32x32.png"
+  },
+  "background": {
+    "scripts": ["app.js", "qr_generator.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs"],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G",
+        "mac": "MacCtrl+Shift+G"
+      },
+      "description": "Opens index.html"
+    }
+  }
+}
