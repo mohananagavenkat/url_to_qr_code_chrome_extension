@@ -1,5 +1,5 @@
 # URL to QR Code Coverter
-This extension generates a QR code for current page URL, so that if you want to view the same web page in mobile by simply scanning it, instead of typing the whole URL by hand or ```Ctrl+c``` and then ```Ctrl+v``` 😖 into another application.
+This extension generates a QR code for current page URL, so that we can view a web page in mobile by simply scanning it, instead of typing the whole URL by hand or ```Ctrl+c``` and then ```Ctrl+v``` 😖 into another application.
 
 # Installation
   * Open the Extension Management page by navigating to chrome://extensions.
